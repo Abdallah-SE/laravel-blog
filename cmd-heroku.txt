@@ -1,0 +1,1182 @@
+
+Abdallah@ProgrammingPC MINGW64 ~ (master)
+$ cd /c/xampp/htdocs/cms
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms
+$ heroku
+ »   Warning: heroku update available from 7.59.1 to 7.60.1.
+CLI to interact with Heroku
+
+VERSION
+  heroku/7.59.1 win32-x64 node-v12.21.0
+
+USAGE
+  $ heroku [COMMAND]
+
+COMMANDS
+  access          manage user access to apps
+  addons          tools and services for developing, extending, and operating
+                  your app
+  apps            manage apps on Heroku
+  auth            check 2fa status
+  authorizations  OAuth authorizations
+  autocomplete    display autocomplete installation instructions
+  buildpacks      scripts used to compile apps
+  certs           a topic for the ssl plugin
+  ci              run an application test suite on Heroku
+  clients         OAuth clients on the platform
+  config          environment variables of apps
+  container       Use containers to build and deploy Heroku apps
+  domains         custom domains for apps
+  drains          forward logs to syslog or HTTPS
+  features        add/remove app features
+  git             manage local git repository for app
+  help            display help for heroku
+  keys            add/remove account ssh keys
+  labs            add/remove experimental features
+  local           run Heroku app locally
+  logs            display recent log output
+  maintenance     enable/disable access to app
+  members         manage organization members
+  notifications   display notifications
+  orgs            manage organizations
+  pg              manage postgresql databases
+  pipelines       manage pipelines
+  plugins         list installed plugins
+  ps              Client tools for Heroku Exec
+  psql            open a psql shell to the database
+  redis           manage heroku redis instances
+  regions         list available regions for deployment
+  releases        display the releases for an app
+  reviewapps      manage reviewapps in pipelines
+  run             run a one-off process inside a Heroku dyno
+  sessions        OAuth sessions
+  spaces          manage heroku private spaces
+  status          status of the Heroku platform
+  teams           manage teams
+  update          update the Heroku CLI
+  webhooks        list webhooks on an app
+
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms
+$ heroku login --i
+ »   Warning: heroku update available from 7.59.1 to 7.60.1.
+ »   Error: Unexpected argument: --i
+ »   See more help with --help
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms
+$ heroku login -i
+ »   Warning: heroku update available from 7.59.1 to 7.60.1.
+heroku: Enter your login credentials
+Email [abdallah95dis@gmail.com]:
+Password: y%u&%A8U~Cdm25*
+
+Logged in as abdallah95dis@gmail.com
+
+^C^CTerminate batch job (Y/N)? Y
+Y
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms
+$ git init
+Initialized empty Git repository in C:/xampp/htdocs/cms/.git/
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms (master)
+$ git add .
+warning: LF will be replaced by CRLF in .editorconfig.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .env.example.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .gitattributes.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .styleci.yml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Console/Kernel.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Exceptions/Handler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/Auth/AuthenticatedSessionController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/Auth/ConfirmablePasswordController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/Auth/EmailVerificationNotificationController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/Auth/EmailVerificationPromptController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/Auth/NewPasswordController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/Auth/PasswordResetLinkController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/Auth/RegisteredUserController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/Auth/VerifyEmailController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/Blog/PostsController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/CategoriesController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/Controller.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/PostsController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/TagsController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/UsersController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Kernel.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/Authenticate.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/EncryptCookies.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/PreventRequestsDuringMaintenance.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/RedirectIfAuthenticated.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/TrimStrings.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/TrustHosts.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/TrustProxies.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/VerifyCategoriesCount.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/VerifyCsrfToken.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/VerifyIsAdmin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Requests/Auth/LoginRequest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Requests/Categories/CreateCategoryRequest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Requests/Categories/UpdateCategoriesRequest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Requests/Posts/CreatePostsRequest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Requests/Posts/UpdatePostRequest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Requests/Tags/CreateTagsRequest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Requests/Tags/UpdateTagsRequest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Requests/Users/UpdateProfileRequest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Models/Category.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Models/Post.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Models/Tag.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Models/User.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Providers/AppServiceProvider.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Providers/AuthServiceProvider.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Providers/BroadcastServiceProvider.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Providers/EventServiceProvider.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Providers/RouteServiceProvider.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/View/Components/AppLayout.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/View/Components/GuestLayout.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in artisan.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap/app.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap/cache/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in composer.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in composer.lock.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/app.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/auth.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/broadcasting.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/cache.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/cors.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/database.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/filesystems.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/gravatar.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/hashing.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/logging.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/mail.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/queue.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/sanctum.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/services.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/session.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/view.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/factories/UserFactory.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/migrations/2014_10_12_000000_create_users_table.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/migrations/2014_10_12_100000_create_password_resets_table.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/migrations/2019_08_19_000000_create_failed_jobs_table.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/migrations/2022_04_14_125529_create_posts_table.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/migrations/2022_04_14_125637_create_categories_table.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/migrations/2022_04_20_175002_add_soft_deletes_to_posts_table.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/migrations/2022_04_21_175058_create_tags_table.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/migrations/2022_04_22_091013_create_post_tag_table.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/seeders/DatabaseSeeder.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/seeders/PostsTableSeeder.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/seeders/UsersTableSeeder.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lang/en.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lang/en/auth.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lang/en/pagination.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lang/en/passwords.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lang/en/validation.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in phpunit.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/.htaccess.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/css/app.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/css/page.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/css/profileCSS.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/css/style.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/index.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/js/app.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/js/page.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/js/script.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/mix-manifest.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/robots.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/css/app.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/js/app.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/js/bootstrap.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/auth/confirm-password.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/auth/forgot-password.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/auth/login.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/auth/register.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/auth/reset-password.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/auth/verify-email.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/blog/category.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/blog/show.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/blog/tag.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/categories/create.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/categories/index.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/components/application-logo.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/components/auth-card.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/components/auth-session-status.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/components/auth-validation-errors.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/components/button.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/components/dropdown-link.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/components/dropdown.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/components/input.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/components/label.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/components/nav-link.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/components/responsive-nav-link.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/dashboard.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/layouts/app.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/layouts/blog.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/layouts/guest.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/layouts/navigation.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/partials/errors.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/posts/create.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/posts/index.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/tags/create.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/tags/index.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/users/create.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/users/edit.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/users/index.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/users/view.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/vendor/pagination/bootstrap-4.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/vendor/pagination/bootstrap-5.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/vendor/pagination/default.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/vendor/pagination/semantic-ui.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/vendor/pagination/simple-bootstrap-4.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/vendor/pagination/simple-bootstrap-5.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/vendor/pagination/simple-default.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/vendor/pagination/simple-tailwind.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/vendor/pagination/tailwind.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/welcome.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in routes/api.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in routes/auth.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in routes/channels.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in routes/console.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in routes/web.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/app/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/app/public/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/framework/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/framework/cache/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/framework/cache/data/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/framework/sessions/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/framework/testing/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/framework/views/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/logs/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tailwind.config.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/CreatesApplication.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/Feature/Auth/AuthenticationTest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/Feature/Auth/EmailVerificationTest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/Feature/Auth/PasswordConfirmationTest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/Feature/Auth/PasswordResetTest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/Feature/Auth/RegistrationTest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/Feature/ExampleTest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/TestCase.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/Unit/ExampleTest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in webpack.mix.js.
+The file will have its original line endings in your working directory
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms (master)
+$ git commit -m "host blog laravel app on heroku"
+[master (root-commit) 953fb80] host blog laravel app on heroku
+ 199 files changed, 47380 insertions(+)
+ create mode 100644 .editorconfig
+ create mode 100644 .env.example
+ create mode 100644 .gitattributes
+ create mode 100644 .gitignore
+ create mode 100644 .styleci.yml
+ create mode 100644 README.md
+ create mode 100644 app/Console/Kernel.php
+ create mode 100644 app/Exceptions/Handler.php
+ create mode 100644 app/Http/Controllers/Auth/AuthenticatedSessionController.php
+ create mode 100644 app/Http/Controllers/Auth/ConfirmablePasswordController.php
+ create mode 100644 app/Http/Controllers/Auth/EmailVerificationNotificationController.php
+ create mode 100644 app/Http/Controllers/Auth/EmailVerificationPromptController.php
+ create mode 100644 app/Http/Controllers/Auth/NewPasswordController.php
+ create mode 100644 app/Http/Controllers/Auth/PasswordResetLinkController.php
+ create mode 100644 app/Http/Controllers/Auth/RegisteredUserController.php
+ create mode 100644 app/Http/Controllers/Auth/VerifyEmailController.php
+ create mode 100644 app/Http/Controllers/Blog/PostsController.php
+ create mode 100644 app/Http/Controllers/CategoriesController.php
+ create mode 100644 app/Http/Controllers/Controller.php
+ create mode 100644 app/Http/Controllers/PostsController.php
+ create mode 100644 app/Http/Controllers/TagsController.php
+ create mode 100644 app/Http/Controllers/UsersController.php
+ create mode 100644 app/Http/Kernel.php
+ create mode 100644 app/Http/Middleware/Authenticate.php
+ create mode 100644 app/Http/Middleware/EncryptCookies.php
+ create mode 100644 app/Http/Middleware/PreventRequestsDuringMaintenance.php
+ create mode 100644 app/Http/Middleware/RedirectIfAuthenticated.php
+ create mode 100644 app/Http/Middleware/TrimStrings.php
+ create mode 100644 app/Http/Middleware/TrustHosts.php
+ create mode 100644 app/Http/Middleware/TrustProxies.php
+ create mode 100644 app/Http/Middleware/VerifyCategoriesCount.php
+ create mode 100644 app/Http/Middleware/VerifyCsrfToken.php
+ create mode 100644 app/Http/Middleware/VerifyIsAdmin.php
+ create mode 100644 app/Http/Requests/Auth/LoginRequest.php
+ create mode 100644 app/Http/Requests/Categories/CreateCategoryRequest.php
+ create mode 100644 app/Http/Requests/Categories/UpdateCategoriesRequest.php
+ create mode 100644 app/Http/Requests/Posts/CreatePostsRequest.php
+ create mode 100644 app/Http/Requests/Posts/UpdatePostRequest.php
+ create mode 100644 app/Http/Requests/Tags/CreateTagsRequest.php
+ create mode 100644 app/Http/Requests/Tags/UpdateTagsRequest.php
+ create mode 100644 app/Http/Requests/Users/UpdateProfileRequest.php
+ create mode 100644 app/Models/Category.php
+ create mode 100644 app/Models/Post.php
+ create mode 100644 app/Models/Tag.php
+ create mode 100644 app/Models/User.php
+ create mode 100644 app/Providers/AppServiceProvider.php
+ create mode 100644 app/Providers/AuthServiceProvider.php
+ create mode 100644 app/Providers/BroadcastServiceProvider.php
+ create mode 100644 app/Providers/EventServiceProvider.php
+ create mode 100644 app/Providers/RouteServiceProvider.php
+ create mode 100644 app/View/Components/AppLayout.php
+ create mode 100644 app/View/Components/GuestLayout.php
+ create mode 100644 artisan
+ create mode 100644 bootstrap/app.php
+ create mode 100644 bootstrap/cache/.gitignore
+ create mode 100644 composer.json
+ create mode 100644 composer.lock
+ create mode 100644 config/app.php
+ create mode 100644 config/auth.php
+ create mode 100644 config/broadcasting.php
+ create mode 100644 config/cache.php
+ create mode 100644 config/cors.php
+ create mode 100644 config/database.php
+ create mode 100644 config/filesystems.php
+ create mode 100644 config/gravatar.php
+ create mode 100644 config/hashing.php
+ create mode 100644 config/logging.php
+ create mode 100644 config/mail.php
+ create mode 100644 config/queue.php
+ create mode 100644 config/sanctum.php
+ create mode 100644 config/services.php
+ create mode 100644 config/session.php
+ create mode 100644 config/view.php
+ create mode 100644 database/.gitignore
+ create mode 100644 database/factories/UserFactory.php
+ create mode 100644 database/migrations/2014_10_12_000000_create_users_table.php
+ create mode 100644 database/migrations/2014_10_12_100000_create_password_resets_table.php
+ create mode 100644 database/migrations/2019_08_19_000000_create_failed_jobs_table.php
+ create mode 100644 database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php
+ create mode 100644 database/migrations/2022_04_14_125529_create_posts_table.php
+ create mode 100644 database/migrations/2022_04_14_125637_create_categories_table.php
+ create mode 100644 database/migrations/2022_04_20_175002_add_soft_deletes_to_posts_table.php
+ create mode 100644 database/migrations/2022_04_21_175058_create_tags_table.php
+ create mode 100644 database/migrations/2022_04_22_091013_create_post_tag_table.php
+ create mode 100644 database/seeders/DatabaseSeeder.php
+ create mode 100644 database/seeders/PostsTableSeeder.php
+ create mode 100644 database/seeders/UsersTableSeeder.php
+ create mode 100644 lang/en.json
+ create mode 100644 lang/en/auth.php
+ create mode 100644 lang/en/pagination.php
+ create mode 100644 lang/en/passwords.php
+ create mode 100644 lang/en/validation.php
+ create mode 100644 nbproject/private/config.properties
+ create mode 100644 nbproject/private/private.properties
+ create mode 100644 nbproject/private/private.xml
+ create mode 100644 nbproject/project.properties
+ create mode 100644 nbproject/project.xml
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 phpunit.xml
+ create mode 100644 public/.htaccess
+ create mode 100644 public/css/app.css
+ create mode 100644 public/css/page.min.css
+ create mode 100644 public/css/profileCSS.css
+ create mode 100644 public/css/style.css
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/heroku-settings.docx
+ create mode 100644 public/hints.docx
+ create mode 100644 public/img/apple-touch-icon.png
+ create mode 100644 public/img/favicon.png
+ create mode 100644 public/img/logo-dark.png
+ create mode 100644 public/img/logo-light.png
+ create mode 100644 public/index.php
+ create mode 100644 public/js/app.js
+ create mode 100644 public/js/page.min.js
+ create mode 100644 public/js/script.js
+ create mode 100644 public/mix-manifest.json
+ create mode 100644 public/robots.txt
+ create mode 100644 public/text-UP.txt
+ create mode 100644 public/~$hints.docx
+ create mode 100644 public/~$roku-settings.docx
+ create mode 100644 resources/css/app.css
+ create mode 100644 resources/js/app.js
+ create mode 100644 resources/js/bootstrap.js
+ create mode 100644 resources/sass/profileCSS.css
+ create mode 100644 resources/sass/profileCSS.scss
+ create mode 100644 resources/views/auth/confirm-password.blade.php
+ create mode 100644 resources/views/auth/forgot-password.blade.php
+ create mode 100644 resources/views/auth/login.blade.php
+ create mode 100644 resources/views/auth/register.blade.php
+ create mode 100644 resources/views/auth/reset-password.blade.php
+ create mode 100644 resources/views/auth/verify-email.blade.php
+ create mode 100644 resources/views/blog/category.blade.php
+ create mode 100644 resources/views/blog/show.blade.php
+ create mode 100644 resources/views/blog/tag.blade.php
+ create mode 100644 resources/views/categories/create.blade.php
+ create mode 100644 resources/views/categories/index.blade.php
+ create mode 100644 resources/views/components/application-logo.blade.php
+ create mode 100644 resources/views/components/auth-card.blade.php
+ create mode 100644 resources/views/components/auth-session-status.blade.php
+ create mode 100644 resources/views/components/auth-validation-errors.blade.php
+ create mode 100644 resources/views/components/button.blade.php
+ create mode 100644 resources/views/components/dropdown-link.blade.php
+ create mode 100644 resources/views/components/dropdown.blade.php
+ create mode 100644 resources/views/components/input.blade.php
+ create mode 100644 resources/views/components/label.blade.php
+ create mode 100644 resources/views/components/nav-link.blade.php
+ create mode 100644 resources/views/components/responsive-nav-link.blade.php
+ create mode 100644 resources/views/dashboard.blade.php
+ create mode 100644 resources/views/layouts/app.blade.php
+ create mode 100644 resources/views/layouts/blog.blade.php
+ create mode 100644 resources/views/layouts/guest.blade.php
+ create mode 100644 resources/views/layouts/navigation.blade.php
+ create mode 100644 resources/views/partials/errors.blade.php
+ create mode 100644 resources/views/partials/sidebar.blade.php
+ create mode 100644 resources/views/partials/success.blade.php
+ create mode 100644 resources/views/posts/create.blade.php
+ create mode 100644 resources/views/posts/index.blade.php
+ create mode 100644 resources/views/tags/create.blade.php
+ create mode 100644 resources/views/tags/index.blade.php
+ create mode 100644 resources/views/users/create.blade.php
+ create mode 100644 resources/views/users/edit.blade.php
+ create mode 100644 resources/views/users/index.blade.php
+ create mode 100644 resources/views/users/view.blade.php
+ create mode 100644 resources/views/vendor/pagination/bootstrap-4.blade.php
+ create mode 100644 resources/views/vendor/pagination/bootstrap-5.blade.php
+ create mode 100644 resources/views/vendor/pagination/default.blade.php
+ create mode 100644 resources/views/vendor/pagination/semantic-ui.blade.php
+ create mode 100644 resources/views/vendor/pagination/simple-bootstrap-4.blade.php
+ create mode 100644 resources/views/vendor/pagination/simple-bootstrap-5.blade.php
+ create mode 100644 resources/views/vendor/pagination/simple-default.blade.php
+ create mode 100644 resources/views/vendor/pagination/simple-tailwind.blade.php
+ create mode 100644 resources/views/vendor/pagination/tailwind.blade.php
+ create mode 100644 resources/views/welcome.blade.php
+ create mode 100644 routes/api.php
+ create mode 100644 routes/auth.php
+ create mode 100644 routes/channels.php
+ create mode 100644 routes/console.php
+ create mode 100644 routes/web.php
+ create mode 100644 storage/app/.gitignore
+ create mode 100644 storage/app/public/.gitignore
+ create mode 100644 storage/framework/.gitignore
+ create mode 100644 storage/framework/cache/.gitignore
+ create mode 100644 storage/framework/cache/data/.gitignore
+ create mode 100644 storage/framework/sessions/.gitignore
+ create mode 100644 storage/framework/testing/.gitignore
+ create mode 100644 storage/framework/views/.gitignore
+ create mode 100644 storage/logs/.gitignore
+ create mode 100644 tailwind.config.js
+ create mode 100644 tests/CreatesApplication.php
+ create mode 100644 tests/Feature/Auth/AuthenticationTest.php
+ create mode 100644 tests/Feature/Auth/EmailVerificationTest.php
+ create mode 100644 tests/Feature/Auth/PasswordConfirmationTest.php
+ create mode 100644 tests/Feature/Auth/PasswordResetTest.php
+ create mode 100644 tests/Feature/Auth/RegistrationTest.php
+ create mode 100644 tests/Feature/ExampleTest.php
+ create mode 100644 tests/TestCase.php
+ create mode 100644 tests/Unit/ExampleTest.php
+ create mode 100644 webpack.mix.js
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms (master)
+$ echo "web: vendor/bin/heroku-php-apache2 public/" > Procfile
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms (master)
+$ git add .
+warning: LF will be replaced by CRLF in Procfile.
+The file will have its original line endings in your working directory
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms (master)
+$ git commit -m "procfile for heroku"
+[master 604dbf3] procfile for heroku
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Procfile
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms (master)
+$ heroku create
+ »   Warning: heroku update available from 7.59.1 to 7.60.1.
+Creating app... done, glacial-stream-18619
+https://glacial-stream-18619.herokuapp.com/ | https://git.heroku.com/glacial-stream-18619.git
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms (master)
+$ heoku apps:rename blog-laravel --app glacial-stream-18619
+bash: heoku: command not found
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms (master)
+$ heroku apps:rename blog-laravel --app glacial-stream-18619
+ »   Warning: heroku update available from 7.59.1 to 7.60.1.
+Renaming glacial-stream-18619 to blog-laravel... !
+ !    Name blog-laravel is already taken
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms (master)
+$ heroku apps:rename blog-laravel-sass --app glacial-stream-18619
+ »   Warning: heroku update available from 7.59.1 to 7.60.1.
+Renaming glacial-stream-18619 to blog-laravel-sass... done
+https://blog-laravel-sass.herokuapp.com/ | https://git.heroku.com/blog-laravel-sass.git
+ !    Don't forget to update git remotes for all other local checkouts of the
+ !    app.
+Git remote heroku updated
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms (master)
+$ php artisan key:generate --show
+base64:ZebXonA1lcdsI+VhNq7CYYG9B7tQb6i3Jkw/Sqg6knE=
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms (master)
+$ heroku config:set APP_KEY=base64:ZebXonA1lcdsI+VhNq7CYYG9B7tQb6i3Jkw/Sqg6knE=
+ »   Warning: heroku update available from 7.59.1 to 7.60.1.
+Setting APP_KEY and restarting blog-laravel-sass... done, v3
+APP_KEY: base64:ZebXonA1lcdsI+VhNq7CYYG9B7tQb6i3Jkw/Sqg6knE=
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms (master)
+$ git push heroku master
+Enumerating objects: 253, done.
+Counting objects: 100% (253/253), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (234/234), done.
+Writing objects: 100% (253/253), 553.56 KiB | 4.54 MiB/s, done.
+Total 253 (delta 46), reused 0 (delta 0), pack-reused 0
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> Building on the Heroku-20 stack
+remote: -----> Determining which buildpack to use for this app
+remote:  !     Warning: Multiple default buildpacks reported the ability to handle this app. The first buildpack in the list below will be used.
+remote:                         Detected buildpacks: PHP,Node.js
+remote:                         See https://devcenter.heroku.com/articles/buildpacks#buildpack-detect-order
+remote: -----> PHP app detected
+remote: -----> Bootstrapping...
+remote: -----> Preparing platform package installation...
+remote: -----> Installing platform packages...
+remote:        - php (8.1.5)
+remote:        - apache (2.4.53)
+remote:        - composer (2.3.5)
+remote:        - nginx (1.20.2)
+remote:        NOTICE: detected userland polyfill packages for PHP extensions
+remote:        NOTICE: now attempting to install native extension packages
+remote:        Installing extensions provided by symfony/polyfill-mbstring:
+remote:        - ext-mbstring (bundled with php)
+remote:        Installing extensions provided by symfony/polyfill-ctype:
+remote:        - ext-ctype (already enabled)
+remote: -----> Installing dependencies...
+remote:        Composer version 2.3.5 2022-04-13 16:43:00
+remote:        Installing dependencies from lock file
+remote:        Verifying lock file contents can be installed on current platform.
+remote:        Package operations: 66 installs, 0 updates, 0 removals
+remote:          - Downloading doctrine/inflector (2.0.4)
+remote:          - Downloading doctrine/lexer (1.2.3)
+remote:          - Downloading symfony/polyfill-ctype (v1.25.0)
+remote:          - Downloading webmozart/assert (1.10.0)
+remote:          - Downloading dragonmantank/cron-expression (v3.3.1)
+remote:          - Downloading symfony/polyfill-mbstring (v1.25.0)
+remote:          - Downloading symfony/deprecation-contracts (v3.0.1)
+remote:          - Downloading symfony/http-foundation (v6.0.7)
+remote:          - Downloading fruitcake/php-cors (v1.2.0)
+remote:          - Downloading psr/http-message (1.0.1)
+remote:          - Downloading psr/http-client (1.0.1)
+remote:          - Downloading ralouphie/getallheaders (3.0.3)
+remote:          - Downloading psr/http-factory (1.0.1)
+remote:          - Downloading guzzlehttp/psr7 (2.2.1)
+remote:          - Downloading guzzlehttp/promises (1.5.1)
+remote:          - Downloading guzzlehttp/guzzle (7.4.2)
+remote:          - Downloading voku/portable-ascii (2.0.1)
+remote:          - Downloading symfony/polyfill-php80 (v1.25.0)
+remote:          - Downloading phpoption/phpoption (1.8.1)
+remote:          - Downloading graham-campbell/result-type (v1.0.4)
+remote:          - Downloading vlucas/phpdotenv (v5.4.1)
+remote:          - Downloading symfony/css-selector (v6.0.3)
+remote:          - Downloading tijsverkoyen/css-to-inline-styles (2.2.4)
+remote:          - Downloading symfony/var-dumper (v6.0.6)
+remote:          - Downloading symfony/routing (v6.0.5)
+remote:          - Downloading symfony/process (v6.0.7)
+remote:          - Downloading symfony/polyfill-php72 (v1.25.0)
+remote:          - Downloading symfony/polyfill-intl-normalizer (v1.25.0)
+remote:          - Downloading symfony/polyfill-intl-idn (v1.25.0)
+remote:          - Downloading symfony/mime (v6.0.7)
+remote:          - Downloading psr/container (2.0.2)
+remote:          - Downloading symfony/service-contracts (v3.0.1)
+remote:          - Downloading psr/event-dispatcher (1.0.0)
+remote:          - Downloading symfony/event-dispatcher-contracts (v3.0.1)
+remote:          - Downloading symfony/event-dispatcher (v6.0.3)
+remote:          - Downloading psr/log (3.0.0)
+remote:          - Downloading egulias/email-validator (3.1.2)
+remote:          - Downloading symfony/mailer (v6.0.7)
+remote:          - Downloading symfony/error-handler (v6.0.7)
+remote:          - Downloading symfony/http-kernel (v6.0.7)
+remote:          - Downloading symfony/finder (v6.0.3)
+remote:          - Downloading symfony/polyfill-intl-grapheme (v1.25.0)
+remote:          - Downloading symfony/string (v6.0.3)
+remote:          - Downloading symfony/console (v6.0.7)
+remote:          - Downloading symfony/polyfill-php81 (v1.25.0)
+remote:          - Downloading ramsey/collection (1.2.2)
+remote:          - Downloading brick/math (0.9.3)
+remote:          - Downloading ramsey/uuid (4.3.1)
+remote:          - Downloading psr/simple-cache (3.0.0)
+remote:          - Downloading symfony/translation-contracts (v3.0.1)
+remote:          - Downloading symfony/translation (v6.0.7)
+remote:          - Downloading nesbot/carbon (2.57.0)
+remote:          - Downloading monolog/monolog (2.5.0)
+remote:          - Downloading league/mime-type-detection (1.11.0)
+remote:          - Downloading league/flysystem (3.0.17)
+remote:          - Downloading nette/utils (v3.2.7)
+remote:          - Downloading nette/schema (v1.2.2)
+remote:          - Downloading dflydev/dot-access-data (v3.0.1)
+remote:          - Downloading league/config (v1.1.1)
+remote:          - Downloading league/commonmark (2.3.0)
+remote:          - Downloading laravel/serializable-closure (v1.1.1)
+remote:          - Downloading laravel/framework (v9.9.0)
+remote:          - Downloading laravel/sanctum (v2.15.1)
+remote:          - Downloading nikic/php-parser (v4.13.2)
+remote:          - Downloading psy/psysh (v0.11.2)
+remote:          - Downloading laravel/tinker (v2.7.2)
+remote:          - Installing doctrine/inflector (2.0.4): Extracting archive
+remote:          - Installing doctrine/lexer (1.2.3): Extracting archive
+remote:          - Installing symfony/polyfill-ctype (v1.25.0): Extracting archive
+remote:          - Installing webmozart/assert (1.10.0): Extracting archive
+remote:          - Installing dragonmantank/cron-expression (v3.3.1): Extracting archive
+remote:          - Installing symfony/polyfill-mbstring (v1.25.0): Extracting archive
+remote:          - Installing symfony/deprecation-contracts (v3.0.1): Extracting archive
+remote:          - Installing symfony/http-foundation (v6.0.7): Extracting archive
+remote:          - Installing fruitcake/php-cors (v1.2.0): Extracting archive
+remote:          - Installing psr/http-message (1.0.1): Extracting archive
+remote:          - Installing psr/http-client (1.0.1): Extracting archive
+remote:          - Installing ralouphie/getallheaders (3.0.3): Extracting archive
+remote:          - Installing psr/http-factory (1.0.1): Extracting archive
+remote:          - Installing guzzlehttp/psr7 (2.2.1): Extracting archive
+remote:          - Installing guzzlehttp/promises (1.5.1): Extracting archive
+remote:          - Installing guzzlehttp/guzzle (7.4.2): Extracting archive
+remote:          - Installing voku/portable-ascii (2.0.1): Extracting archive
+remote:          - Installing symfony/polyfill-php80 (v1.25.0): Extracting archive
+remote:          - Installing phpoption/phpoption (1.8.1): Extracting archive
+remote:          - Installing graham-campbell/result-type (v1.0.4): Extracting archive
+remote:          - Installing vlucas/phpdotenv (v5.4.1): Extracting archive
+remote:          - Installing symfony/css-selector (v6.0.3): Extracting archive
+remote:          - Installing tijsverkoyen/css-to-inline-styles (2.2.4): Extracting archive
+remote:          - Installing symfony/var-dumper (v6.0.6): Extracting archive
+remote:          - Installing symfony/routing (v6.0.5): Extracting archive
+remote:          - Installing symfony/process (v6.0.7): Extracting archive
+remote:          - Installing symfony/polyfill-php72 (v1.25.0): Extracting archive
+remote:          - Installing symfony/polyfill-intl-normalizer (v1.25.0): Extracting archive
+remote:          - Installing symfony/polyfill-intl-idn (v1.25.0): Extracting archive
+remote:          - Installing symfony/mime (v6.0.7): Extracting archive
+remote:          - Installing psr/container (2.0.2): Extracting archive
+remote:          - Installing symfony/service-contracts (v3.0.1): Extracting archive
+remote:          - Installing psr/event-dispatcher (1.0.0): Extracting archive
+remote:          - Installing symfony/event-dispatcher-contracts (v3.0.1): Extracting archive
+remote:          - Installing symfony/event-dispatcher (v6.0.3): Extracting archive
+remote:          - Installing psr/log (3.0.0): Extracting archive
+remote:          - Installing egulias/email-validator (3.1.2): Extracting archive
+remote:          - Installing symfony/mailer (v6.0.7): Extracting archive
+remote:          - Installing symfony/error-handler (v6.0.7): Extracting archive
+remote:          - Installing symfony/http-kernel (v6.0.7): Extracting archive
+remote:          - Installing symfony/finder (v6.0.3): Extracting archive
+remote:          - Installing symfony/polyfill-intl-grapheme (v1.25.0): Extracting archive
+remote:          - Installing symfony/string (v6.0.3): Extracting archive
+remote:          - Installing symfony/console (v6.0.7): Extracting archive
+remote:          - Installing symfony/polyfill-php81 (v1.25.0): Extracting archive
+remote:          - Installing ramsey/collection (1.2.2): Extracting archive
+remote:          - Installing brick/math (0.9.3): Extracting archive
+remote:          - Installing ramsey/uuid (4.3.1): Extracting archive
+remote:          - Installing psr/simple-cache (3.0.0): Extracting archive
+remote:          - Installing symfony/translation-contracts (v3.0.1): Extracting archive
+remote:          - Installing symfony/translation (v6.0.7): Extracting archive
+remote:          - Installing nesbot/carbon (2.57.0): Extracting archive
+remote:          - Installing monolog/monolog (2.5.0): Extracting archive
+remote:          - Installing league/mime-type-detection (1.11.0): Extracting archive
+remote:          - Installing league/flysystem (3.0.17): Extracting archive
+remote:          - Installing nette/utils (v3.2.7): Extracting archive
+remote:          - Installing nette/schema (v1.2.2): Extracting archive
+remote:          - Installing dflydev/dot-access-data (v3.0.1): Extracting archive
+remote:          - Installing league/config (v1.1.1): Extracting archive
+remote:          - Installing league/commonmark (2.3.0): Extracting archive
+remote:          - Installing laravel/serializable-closure (v1.1.1): Extracting archive
+remote:          - Installing laravel/framework (v9.9.0): Extracting archive
+remote:          - Installing laravel/sanctum (v2.15.1): Extracting archive
+remote:          - Installing nikic/php-parser (v4.13.2): Extracting archive
+remote:          - Installing psy/psysh (v0.11.2): Extracting archive
+remote:          - Installing laravel/tinker (v2.7.2): Extracting archive
+remote:        Generating optimized autoload files
+remote:        > Illuminate\Foundation\ComposerScripts::postAutoloadDump
+remote:        > @php artisan package:discover --ansi
+remote:
+remote:        In ProviderRepository.php line 208:
+remote:                                                                         
+remote:          Class "Creativeorange\Gravatar\GravatarServiceProvider" not found
+remote:                                                                         
+remote:
+remote:        Script @php artisan package:discover --ansi handling the post-autoload-dump event returned with error code 1
+remote:  !     WARNING: A post-autoload-dump script terminated with an error
+remote:
+remote:  !     ERROR: Dependency installation failed!
+remote:  !
+remote:  !     The 'composer install' process failed with an error. The cause
+remote:  !     may be the download or installation of packages, or a pre- or
+remote:  !     post-install hook (e.g. a 'post-install-cmd' item in 'scripts')
+remote:  !     in your 'composer.json'.
+remote:  !
+remote:  !     Typical error cases are out-of-date or missing parts of code,
+remote:  !     timeouts when making external connections, or memory limits.
+remote:  !
+remote:  !     Check the above error output closely to determine the cause of
+remote:  !     the problem, ensure the code you're pushing is functioning
+remote:  !     properly, and that all local changes are committed correctly.
+remote:  !
+remote:  !     For more information on builds for PHP on Heroku, refer to
+remote:  !     https://devcenter.heroku.com/articles/php-support
+remote:  !
+remote:  !     REMINDER: the following warnings were emitted during the build;
+remote:  !     check the details above, as they may be related to this error:
+remote:  !     - A post-autoload-dump script terminated with an error
+remote:
+remote:  !     Push rejected, failed to compile PHP app.
+remote:
+remote:  !     Push failed
+remote: Verifying deploy...
+remote:
+remote: !       Push rejected to blog-laravel-sass.
+remote:
+To https://git.heroku.com/blog-laravel-sass.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/blog-laravel-sass.git'
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms (master)
+$ heroku open
+ »   Warning: heroku update available from 7.59.1 to 7.60.1.
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms (master)
+$ heroku config:set APP_URL=https://blog-laravel-sass.herokuapp.com/
+ »   Warning: heroku update available from 7.59.1 to 7.60.1.
+Setting APP_URL and restarting blog-laravel-sass... done, v6
+APP_URL: https://blog-laravel-sass.herokuapp.com/
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms (master)
+$ heroku config
+ »   Warning: heroku update available from 7.59.1 to 7.60.1.
+=== blog-laravel-sass Config Vars
+APP_KEY:              base64:ZebXonA1lcdsI+VhNq7CYYG9B7tQb6i3Jkw/Sqg6knE=
+APP_URL:              https://blog-laravel-sass.herokuapp.com/
+CLEARDB_DATABASE_URL: mysql://b529dbda5224ea:76215863@us-cdbr-east-05.cleardb.net/heroku_b6fe068616b3142?reconnect=true
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms (master)
+$ git push heroku master
+Enumerating objects: 253, done.
+Counting objects: 100% (253/253), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (234/234), done.
+Writing objects: 100% (253/253), 553.33 KiB | 3.74 MiB/s, done.
+Total 253 (delta 48), reused 0 (delta 0), pack-reused 0
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> Building on the Heroku-20 stack
+remote: -----> Determining which buildpack to use for this app
+remote:  !     Warning: Multiple default buildpacks reported the ability to handle this app. The first buildpack in the list below will be used.
+remote:                         Detected buildpacks: PHP,Node.js
+remote:                         See https://devcenter.heroku.com/articles/buildpacks#buildpack-detect-order
+remote: -----> PHP app detected
+remote: -----> Bootstrapping...
+remote: -----> Preparing platform package installation...
+remote: -----> Installing platform packages...
+remote:        - php (8.1.5)
+remote:        - apache (2.4.53)
+remote:        - composer (2.3.5)
+remote:        - nginx (1.20.2)
+remote:        NOTICE: detected userland polyfill packages for PHP extensions
+remote:        NOTICE: now attempting to install native extension packages
+remote:        Installing extensions provided by symfony/polyfill-mbstring:
+remote:        - ext-mbstring (bundled with php)
+remote:        Installing extensions provided by symfony/polyfill-ctype:
+remote:        - ext-ctype (already enabled)
+remote: -----> Installing dependencies...
+remote:        Composer version 2.3.5 2022-04-13 16:43:00
+remote:        Installing dependencies from lock file
+remote:        Verifying lock file contents can be installed on current platform.
+remote:        Package operations: 66 installs, 0 updates, 0 removals
+remote:          - Downloading doctrine/inflector (2.0.4)
+remote:          - Downloading doctrine/lexer (1.2.3)
+remote:          - Downloading symfony/polyfill-ctype (v1.25.0)
+remote:          - Downloading webmozart/assert (1.10.0)
+remote:          - Downloading dragonmantank/cron-expression (v3.3.1)
+remote:          - Downloading symfony/polyfill-mbstring (v1.25.0)
+remote:          - Downloading symfony/deprecation-contracts (v3.0.1)
+remote:          - Downloading symfony/http-foundation (v6.0.7)
+remote:          - Downloading fruitcake/php-cors (v1.2.0)
+remote:          - Downloading psr/http-message (1.0.1)
+remote:          - Downloading psr/http-client (1.0.1)
+remote:          - Downloading ralouphie/getallheaders (3.0.3)
+remote:          - Downloading psr/http-factory (1.0.1)
+remote:          - Downloading guzzlehttp/psr7 (2.2.1)
+remote:          - Downloading guzzlehttp/promises (1.5.1)
+remote:          - Downloading guzzlehttp/guzzle (7.4.2)
+remote:          - Downloading voku/portable-ascii (2.0.1)
+remote:          - Downloading symfony/polyfill-php80 (v1.25.0)
+remote:          - Downloading phpoption/phpoption (1.8.1)
+remote:          - Downloading graham-campbell/result-type (v1.0.4)
+remote:          - Downloading vlucas/phpdotenv (v5.4.1)
+remote:          - Downloading symfony/css-selector (v6.0.3)
+remote:          - Downloading tijsverkoyen/css-to-inline-styles (2.2.4)
+remote:          - Downloading symfony/var-dumper (v6.0.6)
+remote:          - Downloading symfony/routing (v6.0.5)
+remote:          - Downloading symfony/process (v6.0.7)
+remote:          - Downloading symfony/polyfill-php72 (v1.25.0)
+remote:          - Downloading symfony/polyfill-intl-normalizer (v1.25.0)
+remote:          - Downloading symfony/polyfill-intl-idn (v1.25.0)
+remote:          - Downloading symfony/mime (v6.0.7)
+remote:          - Downloading psr/container (2.0.2)
+remote:          - Downloading symfony/service-contracts (v3.0.1)
+remote:          - Downloading psr/event-dispatcher (1.0.0)
+remote:          - Downloading symfony/event-dispatcher-contracts (v3.0.1)
+remote:          - Downloading symfony/event-dispatcher (v6.0.3)
+remote:          - Downloading psr/log (3.0.0)
+remote:          - Downloading egulias/email-validator (3.1.2)
+remote:          - Downloading symfony/mailer (v6.0.7)
+remote:          - Downloading symfony/error-handler (v6.0.7)
+remote:          - Downloading symfony/http-kernel (v6.0.7)
+remote:          - Downloading symfony/finder (v6.0.3)
+remote:          - Downloading symfony/polyfill-intl-grapheme (v1.25.0)
+remote:          - Downloading symfony/string (v6.0.3)
+remote:          - Downloading symfony/console (v6.0.7)
+remote:          - Downloading symfony/polyfill-php81 (v1.25.0)
+remote:          - Downloading ramsey/collection (1.2.2)
+remote:          - Downloading brick/math (0.9.3)
+remote:          - Downloading ramsey/uuid (4.3.1)
+remote:          - Downloading psr/simple-cache (3.0.0)
+remote:          - Downloading symfony/translation-contracts (v3.0.1)
+remote:          - Downloading symfony/translation (v6.0.7)
+remote:          - Downloading nesbot/carbon (2.57.0)
+remote:          - Downloading monolog/monolog (2.5.0)
+remote:          - Downloading league/mime-type-detection (1.11.0)
+remote:          - Downloading league/flysystem (3.0.17)
+remote:          - Downloading nette/utils (v3.2.7)
+remote:          - Downloading nette/schema (v1.2.2)
+remote:          - Downloading dflydev/dot-access-data (v3.0.1)
+remote:          - Downloading league/config (v1.1.1)
+remote:          - Downloading league/commonmark (2.3.0)
+remote:          - Downloading laravel/serializable-closure (v1.1.1)
+remote:          - Downloading laravel/framework (v9.9.0)
+remote:          - Downloading laravel/sanctum (v2.15.1)
+remote:          - Downloading nikic/php-parser (v4.13.2)
+remote:          - Downloading psy/psysh (v0.11.2)
+remote:          - Downloading laravel/tinker (v2.7.2)
+remote:          - Installing doctrine/inflector (2.0.4): Extracting archive
+remote:          - Installing doctrine/lexer (1.2.3): Extracting archive
+remote:          - Installing symfony/polyfill-ctype (v1.25.0): Extracting archive
+remote:          - Installing webmozart/assert (1.10.0): Extracting archive
+remote:          - Installing dragonmantank/cron-expression (v3.3.1): Extracting archive
+remote:          - Installing symfony/polyfill-mbstring (v1.25.0): Extracting archive
+remote:          - Installing symfony/deprecation-contracts (v3.0.1): Extracting archive
+remote:          - Installing symfony/http-foundation (v6.0.7): Extracting archive
+remote:          - Installing fruitcake/php-cors (v1.2.0): Extracting archive
+remote:          - Installing psr/http-message (1.0.1): Extracting archive
+remote:          - Installing psr/http-client (1.0.1): Extracting archive
+remote:          - Installing ralouphie/getallheaders (3.0.3): Extracting archive
+remote:          - Installing psr/http-factory (1.0.1): Extracting archive
+remote:          - Installing guzzlehttp/psr7 (2.2.1): Extracting archive
+remote:          - Installing guzzlehttp/promises (1.5.1): Extracting archive
+remote:          - Installing guzzlehttp/guzzle (7.4.2): Extracting archive
+remote:          - Installing voku/portable-ascii (2.0.1): Extracting archive
+remote:          - Installing symfony/polyfill-php80 (v1.25.0): Extracting archive
+remote:          - Installing phpoption/phpoption (1.8.1): Extracting archive
+remote:          - Installing graham-campbell/result-type (v1.0.4): Extracting archive
+remote:          - Installing vlucas/phpdotenv (v5.4.1): Extracting archive
+remote:          - Installing symfony/css-selector (v6.0.3): Extracting archive
+remote:          - Installing tijsverkoyen/css-to-inline-styles (2.2.4): Extracting archive
+remote:          - Installing symfony/var-dumper (v6.0.6): Extracting archive
+remote:          - Installing symfony/routing (v6.0.5): Extracting archive
+remote:          - Installing symfony/process (v6.0.7): Extracting archive
+remote:          - Installing symfony/polyfill-php72 (v1.25.0): Extracting archive
+remote:          - Installing symfony/polyfill-intl-normalizer (v1.25.0): Extracting archive
+remote:          - Installing symfony/polyfill-intl-idn (v1.25.0): Extracting archive
+remote:          - Installing symfony/mime (v6.0.7): Extracting archive
+remote:          - Installing psr/container (2.0.2): Extracting archive
+remote:          - Installing symfony/service-contracts (v3.0.1): Extracting archive
+remote:          - Installing psr/event-dispatcher (1.0.0): Extracting archive
+remote:          - Installing symfony/event-dispatcher-contracts (v3.0.1): Extracting archive
+remote:          - Installing symfony/event-dispatcher (v6.0.3): Extracting archive
+remote:          - Installing psr/log (3.0.0): Extracting archive
+remote:          - Installing egulias/email-validator (3.1.2): Extracting archive
+remote:          - Installing symfony/mailer (v6.0.7): Extracting archive
+remote:          - Installing symfony/error-handler (v6.0.7): Extracting archive
+remote:          - Installing symfony/http-kernel (v6.0.7): Extracting archive
+remote:          - Installing symfony/finder (v6.0.3): Extracting archive
+remote:          - Installing symfony/polyfill-intl-grapheme (v1.25.0): Extracting archive
+remote:          - Installing symfony/string (v6.0.3): Extracting archive
+remote:          - Installing symfony/console (v6.0.7): Extracting archive
+remote:          - Installing symfony/polyfill-php81 (v1.25.0): Extracting archive
+remote:          - Installing ramsey/collection (1.2.2): Extracting archive
+remote:          - Installing brick/math (0.9.3): Extracting archive
+remote:          - Installing ramsey/uuid (4.3.1): Extracting archive
+remote:          - Installing psr/simple-cache (3.0.0): Extracting archive
+remote:          - Installing symfony/translation-contracts (v3.0.1): Extracting archive
+remote:          - Installing symfony/translation (v6.0.7): Extracting archive
+remote:          - Installing nesbot/carbon (2.57.0): Extracting archive
+remote:          - Installing monolog/monolog (2.5.0): Extracting archive
+remote:          - Installing league/mime-type-detection (1.11.0): Extracting archive
+remote:          - Installing league/flysystem (3.0.17): Extracting archive
+remote:          - Installing nette/utils (v3.2.7): Extracting archive
+remote:          - Installing nette/schema (v1.2.2): Extracting archive
+remote:          - Installing dflydev/dot-access-data (v3.0.1): Extracting archive
+remote:          - Installing league/config (v1.1.1): Extracting archive
+remote:          - Installing league/commonmark (2.3.0): Extracting archive
+remote:          - Installing laravel/serializable-closure (v1.1.1): Extracting archive
+remote:          - Installing laravel/framework (v9.9.0): Extracting archive
+remote:          - Installing laravel/sanctum (v2.15.1): Extracting archive
+remote:          - Installing nikic/php-parser (v4.13.2): Extracting archive
+remote:          - Installing psy/psysh (v0.11.2): Extracting archive
+remote:          - Installing laravel/tinker (v2.7.2): Extracting archive
+remote:        Generating optimized autoload files
+remote:        > Illuminate\Foundation\ComposerScripts::postAutoloadDump
+remote:        > @php artisan package:discover --ansi
+remote:
+remote:        In ProviderRepository.php line 208:
+remote:                                                                         
+remote:          Class "Creativeorange\Gravatar\GravatarServiceProvider" not found
+remote:                                                                         
+remote:
+remote:        Script @php artisan package:discover --ansi handling the post-autoload-dump event returned with error code 1
+remote:  !     WARNING: A post-autoload-dump script terminated with an error
+remote:
+remote:  !     ERROR: Dependency installation failed!
+remote:  !
+remote:  !     The 'composer install' process failed with an error. The cause
+remote:  !     may be the download or installation of packages, or a pre- or
+remote:  !     post-install hook (e.g. a 'post-install-cmd' item in 'scripts')
+remote:  !     in your 'composer.json'.
+remote:  !
+remote:  !     Typical error cases are out-of-date or missing parts of code,
+remote:  !     timeouts when making external connections, or memory limits.
+remote:  !
+remote:  !     Check the above error output closely to determine the cause of
+remote:  !     the problem, ensure the code you're pushing is functioning
+remote:  !     properly, and that all local changes are committed correctly.
+remote:  !
+remote:  !     For more information on builds for PHP on Heroku, refer to
+remote:  !     https://devcenter.heroku.com/articles/php-support
+remote:  !
+remote:  !     REMINDER: the following warnings were emitted during the build;
+remote:  !     check the details above, as they may be related to this error:
+remote:  !     - A post-autoload-dump script terminated with an error
+remote:
+remote:  !     Push rejected, failed to compile PHP app.
+remote:
+remote:  !     Push failed
+remote:  !
+remote:  ! ## Warning - The same version of this code has already been built: 604dbf39d60b6cd729ba15d78bd9cc61ac91090d
+remote:  !
+remote:  ! We have detected that you have triggered a build from source code with version 604dbf39d60b6cd729ba15d78bd9cc61ac91090d
+remote:  ! at least twice. One common cause of this behavior is attempting to deploy code from a different branch.
+remote:  !
+remote:  ! If you are developing on a branch and deploying via git you must run:
+remote:  !
+remote:  !     git push heroku <branchname>:main
+remote:  !
+remote:  ! This article goes into details on the behavior:
+remote:  !   https://devcenter.heroku.com/articles/duplicate-build-version
+remote:
+remote: Verifying deploy...
+remote:
+remote: !       Push rejected to blog-laravel-sass.
+remote:
+To https://git.heroku.com/blog-laravel-sass.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/blog-laravel-sass.git'
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms (master)
+$ heroku run php artisan migrate --seed
+ »   Warning: heroku update available from 7.59.1 to 7.60.1.
+Running php artisan migrate --seed on blog-laravel-sass... starting, run.6398 (Free)
+Running php artisan migrate --seed on blog-laravel-sass... connecting, run.6398 (Free)Running php artisan migrate --seed on blog-laravel-sass... up, run.6398 (Free)
+bash: php: command not found
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms (master)
+$ heroku run php artisan migrate --seed
+ »   Warning: heroku update available from 7.59.1 to 7.60.1.
+Running php artisan migrate --seed on blog-laravel-sass... starting, run.5205 (Free)
+Running php artisan migrate --seed on blog-laravel-sass... connecting, run.5205 (Free)Running php artisan migrate --seed on blog-laravel-sass... up, run.5205 (Free)
+bash: php: command not found
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   public/heroku-settings.docx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        database/cms.sql
+        public/~WRL0005.tmp
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Abdallah@ProgrammingPC MINGW64 /c/xampp/htdocs/cms (master)
+$
