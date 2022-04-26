@@ -25,7 +25,14 @@ Amazing Blog App.
  - 20 - Search functionality.
  - 21 - Query scopes.
  - 22 - Scope published.
- - 23 - Modal And js fuctionality.
+ - 23 - See Posts related to single tag.
+ - 24 - See Posts related to single category.
+ - 25 - See Posts related to single tag.
+ - 26 - Modal component And it's js fuctionality.
+ - 27 - Share post.
+ - 28 - Great Admin Panel.
+ - 29 - Trashed,  published and non published posts.
+ - 30 - Integrate with disqus_config comments system on single post.
 
         
 ## Getting Started
