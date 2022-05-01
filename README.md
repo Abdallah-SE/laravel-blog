@@ -18,8 +18,8 @@ Amazing Blog App.
  - 14 - Implement middlewares
  - 15 - User profiles
  - 16 - Tags Models with crud operations.
- - 17 - Making administrator users
- - 18 - Installing our frontend theme
+ - 17 - Making administrator users.
+ - 18 - Installing our frontend theme.
  - 19 - Pagination with laravel.
  - 19 - Change the dafault Pagination to wonderful Pagination with laravel.
  - 20 - Search functionality.
@@ -33,6 +33,9 @@ Amazing Blog App.
  - 28 - Great Admin Panel.
  - 29 - Trashed,  published and non published posts.
  - 30 - Integrate with disqus_config comments system on single post.
+ - 31 - Deploy site on heroku cloud platform.
+ - 32 - Upload images asset on Cloudinary cloud service.
+ - 33 - Generate Amazing Sucess and faliure messages after a lot of operations.
 
         
 ## Getting Started
